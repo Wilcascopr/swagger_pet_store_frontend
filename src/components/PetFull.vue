@@ -44,8 +44,8 @@
         <!-- shows if there are errors after submitting the delete req -->
 
 
-        <div v-if="errorUpdatePet" class="tw-my-3">
-            <v-alert type="error"> {{ errorUpdatePet.message }} </v-alert>
+        <div v-if="errorDelete" class="tw-my-3">
+            <v-alert type="error"> {{ errorDelete.message }} </v-alert>
         </div>
 
     </v-card> 
